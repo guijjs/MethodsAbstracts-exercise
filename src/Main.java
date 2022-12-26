@@ -15,7 +15,9 @@ public class Main{
     System.out.print("Quantas formas irá querer adicionar: ");
     int n = sc.nextInt();
     for(int i = 0; i<n; i++){
-      System.out.println("DADOS DA FORMA #" + i+1 +": ");
+      int num = i;
+      num += 1;
+      System.out.println("DADOS DA FORMA #" +num+": ");
       System.out.print("CIRCULO OU QUADRADO(C/Q): ");
       char option = sc.next().toLowerCase().charAt(0);
       if(option == 'q'){
